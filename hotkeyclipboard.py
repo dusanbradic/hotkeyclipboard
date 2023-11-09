@@ -52,9 +52,6 @@ comment.grid(column=0, row=8)
 
 for child in root.winfo_children():
     child.grid_configure(padx=10, pady=1)
-#possible solution for wait using threads
-# t1 = Thread(target=wait)
-# t1.start()
 
 root.mainloop()
 wait()
