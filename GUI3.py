@@ -5,7 +5,7 @@ from keyboard import add_hotkey, write, wait, unhook_all
 
 #Create an instance of tkinter window or frame
 root=tk.Tk()
-root.title('AUBRATESTATIJE')
+root.title('hotkey clipboard')
 # root.geometry("700x700")
 
 
